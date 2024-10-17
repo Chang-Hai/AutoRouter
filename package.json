@@ -11,7 +11,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/your-username/my-file-router.git"
+      "url": "https://github.com/Chang-Hai/AutoRouter"
     },
     "keywords": ["express", "router", "file-based", "routing"],
     "author": "tao jun lan",
