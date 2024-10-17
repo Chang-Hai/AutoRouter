@@ -5,7 +5,7 @@ A simple file-based router for Express, inspired by Next.js.
 ## Installation
 
 ```bash
-npm install my-file-router
+npm install simple-author-router
 ```
 #Usage
 Create a pages directory in your project, with your route files:
@@ -21,9 +21,9 @@ my-app/
 ```
 Then, in your server.js or app.js:
 ```javascript
-const { init } = require('my-file-router');
+const { auto-router } = require('simple-author-router');
 
-const app = init({ pagesDir: 'pages' });
+const app = auto-router({ pagesDir: 'pages' });
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
@@ -38,7 +38,7 @@ The pages folder will be scanned automatically, and each file will be registered
 ## 安装
 
 ```bash
-npm install my-file-router
+npm install simple-author-router
 ```
 
 ## 使用方法
@@ -58,7 +58,7 @@ my-app/
 然后,在你的 server.js 或 app.js 中:
 
 ```javascript
-const { init } = require('my-file-router');
+const { init } = require('simple-author-router');
 
 const app = init({ pagesDir: 'pages' });
 
